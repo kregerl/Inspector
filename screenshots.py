@@ -4,8 +4,6 @@ from time import sleep
 from discord.ext import commands
 from discord_slash import SlashCommand, SlashContext
 import http.client
-import discord
-import base64
 import json
 
 connection = http.client.HTTPSConnection("cs.deals")
